@@ -1,1 +1,7 @@
-OPIS 
+Projekt mgr
+
+Importujemy do SpringToolsSuite jako projekt maven'
+potem na prawy klawisz->spring tools->create spring project nature
+dodaj server typu tomcat
+i odpalaj na nim apliakcje.
+Pozdr.
