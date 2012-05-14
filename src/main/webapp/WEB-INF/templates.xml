@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<!-- 
+Plik konfiguracyjny dla Tiles
+Tutaj konfigurujemy stronki
+ -->
+<tiles-definitions>
+
+	<!-- name to jest to co zwraca kontroler jako string -->
+	<definition name="index" template="/WEB-INF/views/templates/main.jsp">
+		<put-attribute name="header" value="/WEB-INF/views/templates/header.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/views/templates/footer.jsp" />
+		<put-attribute name="menu" value="/WEB-INF/views/templates/menu.jsp" />
+		
+		<put-attribute name="body" value="/WEB-INF/views/index.jsp" />
+	</definition>
+
+	<definition name="first" extends="index">
+		<put-attribute name="body" value="/WEB-INF/views/first.jsp" />
+	</definition>
+
+</tiles-definitions>
+                

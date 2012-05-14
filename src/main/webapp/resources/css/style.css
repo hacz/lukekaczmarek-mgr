@@ -1,0 +1,67 @@
+body {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.mainContainer {
+	width: 1000px;
+	height: 800px;
+	margin: 0 auto;
+	text-align: left;
+	font-weight: bold;
+	font-size: 12px;
+	position: relative;
+}
+
+/*************************** 
+	HEADER 
+*/
+.header {
+	width: 100%;
+	background: #FAA;
+}
+
+.header div {
+	padding: 5px;
+}
+
+/*************************** 
+	Menu 
+*/
+.menu {
+	width: 250px;
+	height: 100%;
+	float: left;
+	background: #AFA;
+}
+
+.menu div {
+	padding: 5px;
+}
+
+/*************************** 
+	Body 
+*/
+.body {
+	width: 750px;
+	height: 100%;
+	float: left;
+	background: #AAF;
+}
+
+.body div {
+	padding: 5px;
+}
+
+/*************************** 
+	Footer 
+*/
+.footer {
+	float: left;
+	width: 100%;
+	background: #AAA;
+}
+
+.footer div {
+	padding: 5px;
+}
